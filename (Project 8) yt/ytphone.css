@@ -1,0 +1,84 @@
+/* CSS reset  */
+.Post{
+    display: none;
+}
+body{
+   width:100% ; 
+}
+
+/* Navigation Bar  */
+
+#button li input{
+    display: none;
+}
+#button li button{
+    display: none;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100vw;
+}
+#Navigation {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+#Navigation ul li a{
+    text-decoration: none;
+    padding: 0px 8px;
+    border-radius: 6px;
+   }
+
+   #Navigation ul li a:hover{
+       padding: 6px 9px;
+   }
+   #logo img{
+    height: 50px;
+    width: 60px;
+   }
+/* Home Section  */
+#Home{
+    position: relative;
+    height: 30px;
+    height: 40vh;
+}
+
+.welcome{
+    width:100vw;
+    text-align: center;
+    position: relative;
+    top: 5vh;
+}
+.h-primary{
+  
+    font-size: 2rem;
+}
+
+/* Channels-Section  */
+#Channels{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chnl{
+    width: 80vw;
+    margin:1vw 4vw;
+    padding: 10px;
+
+}
+/* Summary-Section  */
+#Summary-Section{
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+}
+#Summary-Section::before{
+    height: 65vh;
+}
+.Summary-items{
+    margin-top: 2vh;
+}
